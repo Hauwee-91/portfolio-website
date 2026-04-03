@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #111;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #033d70, #04bfc9);
+  color: white;
+}
+
+.hero span {
+  color: rgb(248, 248, 246);
+}
+
+.btn {
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+/* SECTIONS */
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+/* SKILLS */
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.skills-container div {
+  background: #111;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* PROJECTS */
+.project-card {
+  border: 1px solid #ddd;
+  margin: 10px auto;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* CONTACT */
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+button {
+  background: #111;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+/* FOOTER */
+footer {
+  background: #111;
+  color: white;
+  padding: 10px;
+}
